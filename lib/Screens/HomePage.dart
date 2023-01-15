@@ -146,9 +146,9 @@ class _HomePageState extends State<HomePage> {
             child: SizedBox(
               height: 300,
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const SizedBox(height: 50),
+                  const SizedBox(height: 30),
                   const Padding(
                     padding: EdgeInsets.only(left: 10, right: 10),
                     child: Text("Task name:",
@@ -159,6 +159,7 @@ class _HomePageState extends State<HomePage> {
                     padding: const EdgeInsets.only(left: 10, right: 15),
                     child: TextFormField(
                       controller: _editTitle,
+                      style: const TextStyle(fontSize: 20),
                       decoration: InputDecoration(
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -266,6 +267,7 @@ class _HomePageState extends State<HomePage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 10, right: 15),
                     child: TextFormField(
+                      style: const TextStyle(fontSize: 20),
                       controller: _title,
                       decoration: InputDecoration(
                         border: OutlineInputBorder(
@@ -310,8 +312,10 @@ class _HomePageState extends State<HomePage> {
                                 addTodo(_title.text);
                               });
                               Get.back();
-                              Get.snackbar("Successfully",
-                                  "The task has been successfully added.");
+                              Get.snackbar(
+                                "Successfully",
+                                "The task has been successfully added.",
+                              );
                             }
                           }),
                     ),
