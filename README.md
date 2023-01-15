@@ -1,4 +1,4 @@
-# fFlutter Simple Todo List
+# Flutter Simple Todo List
 
 Todo list application consisting of only 1 page.
 
