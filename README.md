@@ -1,16 +1,16 @@
-# flutter_application_1
+# fFlutter Simple Todo List
 
-A new Flutter project.
+Todo list application consisting of only 1 page.
 
-## Getting Started
+- Add todo
+- Edit todo
+- Delete todo
+- Bulk selection
 
-This project is a starting point for a Flutter application.
+<div style="display: flex; flex-direction: row;">
+  <img src="https://i.imgur.com/Pf9DqBc.png" width="240px;">
+  <img src="https://i.imgur.com/LVzpSiR.png" width="240px;">
+  <img src="https://i.imgur.com/yg4RWTG.png" width="240px;">
+  <img src="https://i.imgur.com/DLP1gZb.png" width="240px;">
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</div>
